@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kratos Project Template
 
 ## Install Kratos
@@ -29,6 +28,3 @@ go get github.com/google/wire/cmd/wire
 cd cmd/server
 wire
 ```
-=======
-# testtuya
->>>>>>> 884e52a99be5123b537eb69b7bef625aea87a292
