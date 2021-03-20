@@ -7,7 +7,7 @@ go get -u github.com/go-kratos/kratos/cmd/kratos/v2@latest
 ## Create a service
 ```
 # create a template project
-kratos new helloworld
+kratos new testtuya
 
 cd testtuya
 # Add a proto template
