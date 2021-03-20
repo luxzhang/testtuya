@@ -9,11 +9,11 @@ go get -u github.com/go-kratos/kratos/cmd/kratos/v2@latest
 # create a template project
 kratos new helloworld
 
-cd helloworld
+cd testtuya
 # Add a proto template
-kratos proto add api/helloworld/helloworld.proto
+kratos proto add api/testtuya/testtuya.proto
 # Generate the source code of service by proto file
-kratos proto server api/helloworld/helloworld.proto -t internal/service
+kratos proto server api/testtuya/testtuya.proto -t internal/service
 
 go generate ./...
 go build -o ./bin/ ./...
